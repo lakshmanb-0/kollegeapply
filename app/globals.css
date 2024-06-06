@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .max-width {
+        @apply max-w-screen-xl mx-auto
+    }
+
+    .link {
+        @apply cursor-pointer hover:underline
+    }
+}
