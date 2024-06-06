@@ -26,6 +26,7 @@ const page = () => {
                         <button className='bg-gradient-to-r from-white to-[#F1EEFE] text-[#40347C] px-4 py-2 rounded-md border-[1px] border-[#D3CCF5]'>Download</button>
                         {[colors.map(i =>
                             <div
+                                key={i}
                                 style={{ backgroundColor: `#${i}` }}
                                 className=' text-white px-4 py-10 rounded-md text-center'
                             >ADVERTISEMENT BANNER
